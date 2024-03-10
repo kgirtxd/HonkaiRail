@@ -212,7 +212,7 @@ class PlayerV2(BaseModel):
     signature: Optional[str]
     friend_count: Optional[int]
     world_level: Optional[int]
-    birthday: Optional[str]
+    # birthday: Optional[str]
     space_info: Optional[SpaceInfo]
 
 class StarRailApiDataV2(BaseModel):
