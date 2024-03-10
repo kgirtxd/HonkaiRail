@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "honkairail"
-version = "1.0.0"
+version = "1.1.4-1"
 description = "A simple and convenient model for Mihoyo API which is complemented by other resources"
 authors = ["None"]
 
