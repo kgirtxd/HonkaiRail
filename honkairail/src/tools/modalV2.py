@@ -75,7 +75,7 @@ class LightConeV2(BaseModel):
     icon: Optional[str] = "icon/light_cone/24000.png"
     preview: Optional[str]
     portrait: Optional[str]
-    path: Optional[PathV2] 
+    path: Optional[PathV2]
     attributes: Optional[List[AttributeV2]]
     properties: Optional[List[PropertyV2]]
 
@@ -149,7 +149,7 @@ class SkillTrees(BaseModel):
     id: Optional[int]
     level: Optional[int]
     icon: Optional[str]
-    
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.icon = f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/{self.icon}"
@@ -199,7 +199,7 @@ class Avatar(BaseModel):
         self.icon = f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/{self.icon}"
 
 class SpaceInfo(BaseModel):
-    pass_area_progress: Optional[int]
+    # pass_area_progress: Optional[int]
     light_cone_count: Optional[int]
     avatar_count: Optional[int]
     achievement_count: Optional[int]
